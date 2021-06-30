@@ -1,6 +1,3 @@
-# -*- coding: utf8 -*-
-import json
-import time
-def main_handler(event, context):
-    print "Hello world"
-    return "Hello World"
+import sys
+def handler(event, context):
+    return 'Hello from AWS Lambda using Python' + sys.version + '!'
