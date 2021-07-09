@@ -20,3 +20,6 @@ def handler(event, context):
     print tar_result
     time.sleep(3)
     return "Hello,World!!"
+
+if __name__ == "main":
+    handler("", "")
