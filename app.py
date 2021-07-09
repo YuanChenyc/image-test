@@ -16,7 +16,7 @@ def handler(event, context):
       - payload: a parameter to pass to the operation being performed
     '''
     print("Received event: " + json.dumps(event, indent=2))
-    tar_result = os.system("tar -zcvf /usr/src/*.msi /usr/src/app/test")
+    tar_result = os.system("tar -zcvf /usr/src/*.msi /usr/src/test")
     print tar_result
     time.sleep(3)
     return "Hello,World!!"
