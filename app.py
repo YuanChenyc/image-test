@@ -1,9 +1,9 @@
 from __future__ import print_function
 
+import boto3
 import json
-import os
 import time
-
+import os
 print('Loading function')
 
 
